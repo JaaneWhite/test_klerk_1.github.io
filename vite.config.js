@@ -7,6 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 // https://vite.dev/config/
 export default defineConfig({
   base: '/test_klerk_1/',
+  publicDir: `test_klerk_1`,
   plugins: [
     vue(),
     vueDevTools(),
